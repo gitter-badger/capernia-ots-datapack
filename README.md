@@ -19,12 +19,6 @@ Capernia Datapack is made using LUA scripting language with some mysql arguments
 -----
 
 
-.. contents::
-    :local:
-    :depth: 1
-    :backlinks: none
-
-
 =============
 Main Conceps
 =============
@@ -40,7 +34,20 @@ Installation
 
 On **Windows**, just extract all contents, change variables on **config.lua** to match your MYSQL settings, import MYSQL database (*.sql) and run the provided binary.
 
+ - Unpack global.rar to same folder:
 
+    > capernia-ots-datapack\data\world\global.rar
+
+ - Edit config.lua settings:
+
+	```lua
+	mysqlHost = "127.0.0.1" 
+	mysqlUser = "root"
+	mysqlPass = "az88231015"
+	mysqlDatabase = "servidor"
+	```
+
+ - Have fun!
 
 ===========
 Github Limitations
@@ -59,8 +66,12 @@ Datapacks Merges
 
 This list shows the status of third party datapacks migrations:
 
-**Mitisuig datapack:**
-> Status: Solving bugs
-> Progress: 10%
+| Name | Last Release | Capernia Status | Location |
+| --- | --- |
+| Mitisuig | 13/04/2016 | Debug errors | [TK](http://www.tibiaking.com/forum/topic/36403-global-full-tibiaking-10911092-tfs-12-full-oramond-cast-system-lions-rock-reward-system-equip-hotkey-new-items-news-monster-new-areas-krailos-asura-medusa-town-etc-eventos-sem-missao-v20/) |
+| Absolute | 03/05/2016 | Aware of this project | [TK](http://www.tibiaking.com/forum/topic/67075-global-full-download-1090-tfs-12ferumbras-questkrailosnew-arenacastrewardeventscasino/) |
+
 
 ----------
+
+
