@@ -14,6 +14,8 @@ Capernia Datapack is made using LUA scripting language with some mysql arguments
 
 -----
 
+[![Join the chat at https://gitter.im/gordonbay/capernia-ots-datapack](https://badges.gitter.im/gordonbay/capernia-ots-datapack.svg)](https://gitter.im/gordonbay/capernia-ots-datapack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 |pypi| |unix_build| |windows_build| |coverage| |gitter|
 
 -----
